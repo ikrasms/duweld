@@ -68,9 +68,9 @@
     color: #8b8b8b;
 } 
 .kurumsal_yazi h2 {
-   font-family:  'SFProDisplay';
+   font-family:  'Zoom Pro Extended kalin';
    color: #3ebced;
-   font-size: 65px;
+   font-size: 45px;
    margin-top: 15px;
    margin-bottom: 60px;
    display: block;
@@ -117,6 +117,7 @@
     width: 1824px;
     height: 720px;
     position: relative;
+    margin-bottom: 80px;
 }
 .slider_resim img {
     width: 100%;
@@ -262,7 +263,7 @@
 
 .footer_ust {
     background-color: #1d1e1b;
-    box-shadow: 3px 3px 4px gray;
+   
     
 }
 .katalog h3{
@@ -305,7 +306,7 @@
     text-align: left;
   background-color:#333;
     padding: 50px 250px;
-    box-shadow: 2px gray;
+  
 }
 .footer_alt_sol img{
     filter: brightness(0) invert(1);
@@ -394,7 +395,7 @@
     display: block;
 }
 .resim_yazi h1 {
-    font-size: 70px;
+    font-size: 80px;
     font-family:"Zoom Pro Extended kalin" ;
     position: relative;
     text-align: center;
@@ -402,7 +403,7 @@
 .resim_yazi strong {
     color: #3ebced;
     font-family: "Zoom Pro Extended kalin";
-    font-size: 70px;
+    font-size: 80px;
     position: relative;
 }
 .resim_yazi span {
