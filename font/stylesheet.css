@@ -1,0 +1,49 @@
+@font-face {
+    font-family: 'SFProDisplay kalin';
+    src: url('subset-SFProDisplay-Black.woff2') format('woff2');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SFProDisplay ince';
+    src: url('subset-SFProDisplay-Light.woff2') format('woff2');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SFProDisplay';
+    src: url('subset-SFProDisplay-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Zoom Pro Extended';
+    src: url('subset-ZoomPro-ExtendedThin.woff2') format('woff2');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Zoom Pro Extended kalin';
+    src: url('subset-ZoomPro-ExtendedBold.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Zoom Pro Extended ince';
+    src: url('subset-ZoomPro-ExtendedMedium.woff2') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+

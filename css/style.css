@@ -1,0 +1,626 @@
+@import url("../font/stylesheet.css");
+*{
+    text-decoration: none !important;
+}
+
+.navbar-nav>li>a {
+    color: #000 !important;
+    font-weight: 500;
+    font-size: 17px;
+    font-weight: 500;
+    padding: 50px;   
+    padding-left: 60px;
+}
+
+.navbar-nav>li:hover{
+    background-color: #1d1e1b;
+   
+}
+.navbar:hover{
+    color: white;
+}
+.navbar-nav>li {
+    width: 100px;
+    height: 100px;
+}
+.logo {
+    margin-right: 250px;
+    padding: 40px;
+    padding-top: 15px;
+}
+.siyah_kisim {
+    background-color: #1d1e1b;
+    height: 520px;
+}
+.arka {
+    position: absolute;
+    bottom: 0;
+    z-index: -1;
+}
+
+.resim_yazi{
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+.kurumsal {
+    background-color: #1d1e1b;
+    color: white;
+}
+.kurumsal_resim {
+    width: 630px;
+    margin-left: 320px;
+}
+.kurumsal_resim img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.kurumsal_kapsayici {
+    padding: 80px 0;
+}
+
+.kurumsal_yazi span {
+    font-size: 20px;
+    font-family: "SFProDisplay ince";
+    color: #8b8b8b;
+} 
+.kurumsal_yazi h2 {
+   font-family:  'SFProDisplay';
+   color: #3ebced;
+   font-size: 65px;
+   margin-top: 15px;
+   margin-bottom: 60px;
+   display: block;
+}
+.kurumsal_yazi p{
+    text-align: justify;
+    margin-right: 350px;
+    font-family: "SFProDisplay ince";
+}
+.kurumsal_yazi h4 {
+    font-family: "SFProDisplay ince";
+    font-size: 20px;
+}
+.ok {
+    text-align: left;
+    margin-right: 350px;
+    margin-top: 20px;
+}
+.ok h4 {
+    font-size: 15px;
+}
+.ok img {
+    margin-left: 15px;
+}
+.btn-light {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 40px;
+    border-color: white;
+    width: 150px;
+    height: 60px;
+    margin:0 auto;
+    margin-top: 100px;
+    display: block;
+    
+}
+.btn-light:hover {
+    background-color: #3ebced;
+    border-color: #3ebced;
+    color: black;
+  
+}
+.slider_resim {
+    width: 1824px;
+    height: 720px;
+    position: relative;
+}
+.slider_resim img {
+    width: 100%;
+    height: 100%;
+    position:relative;
+    object-fit: cover;
+    margin-left: 40px;
+}
+.slider_resim h1 {
+    color: white;
+    font-size: 30px;
+    font-family: "SFProDisplay kalin";
+    position: absolute;
+}
+.slider_resim h2 {
+    color:  #3ebced;
+    font-size: 30px;
+    font-family: "SFProDisplay kalin";
+    position: absolute;
+}
+
+.urunler {
+    padding: 30px 0;
+}
+.urunler h3 {
+    text-align: left;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+}
+.urun_icon {
+    text-align: right;
+}
+.urun_buton {
+    text-align: right;
+}
+
+.btn-outline-dark {
+    border-radius: 30px;
+    padding: 15px 30px;
+}
+.incele {
+    background-color: #f5f5f5;
+    padding-bottom: 70px;
+}
+.incele_kutu_sol {
+    width: 600px;
+    background-color: white;
+    margin: 15px;
+    margin-left: 300px;
+    margin-top: 100px;
+    font-family: 'SFProDisplay';
+    text-align: left;
+}
+.incele_kutu_sol h2 {
+    font-family: 'SFProDisplay ince';
+    font-size: 30px;
+}
+.incele_kutu_sag {
+    width: 650px;
+    background-color: white;
+    margin-top: 89px;
+    margin-left: 30px;
+}
+.kutu_resim img {
+    width: 150px;
+    height: 175px;
+    object-fit: cover;
+    margin-top: 80px;
+    margin-right: 10px;
+}
+.kutu_resim {
+    text-align: right;
+}
+
+.kutu_yazi h4 {
+    margin-top: 60px;
+    font-size: 20px;
+    font-family:'Zoom Pro Extended kalin';
+}
+.kutu_yazi h2{
+  font-family:'SF Pro Display' ;
+  font-size: 32px;
+  margin-top: 30px;
+}
+.kutu_yazi h2:hover{
+    color: #3ebced;
+    }
+    .kutu_yazi h4:hover{
+        color: #3ebced;
+    }
+.kutu_yazi {
+    padding-top: 20px;
+    padding-left: 10px;
+}
+.kutu_yazi h6 {
+    font-size: 20px;
+    font-family: 'SFProDisplay ince';
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+.incele_yazi span{
+    color: #8b8b8b;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.incele_yazi span:hover {
+    color: black;
+
+}
+.resim_ust_yazi img{
+    position: relative;
+    height: 500px;
+    width: 100%;
+    object-fit: cover;
+  
+}
+
+.resim_ust_yazi {
+    text-align: center;
+    padding-bottom: 50px;
+    width: 100%;
+    height: 500px;
+}
+.resim_yazisi{
+    position: absolute;
+    z-index: 2;
+}
+.resim_ust_yazi h4{
+    color: white;
+    font-size: 55px;
+    font-family:'Zoom Pro Extended kalin';
+  
+    margin-left: 600px;
+    margin-top: 100px;
+}
+.resim_ust_yazi span {
+    color:#3ebced;
+    font-size: 55px;
+    font-family:'Zoom Pro Extended kalin';
+
+   
+}
+
+.footer_ust {
+    background-color: #1d1e1b;
+    box-shadow: 3px 3px 4px gray;
+    
+}
+.katalog h3{
+    color: #3ebced;
+    font-family:"SFProDisplay kalin" ;
+    font-size: 30px;
+    text-align: right;
+    margin-right: 0px;
+    margin-left: 250px;
+}
+.film h3 {
+    color: #3ebced;
+    font-family:"SFProDisplay kalin" ;
+    font-size: 30px;
+    text-align: left;
+    margin-left: 150px;
+}
+.katalog {
+    padding: 50px 0;
+  
+}
+.film {
+    padding: 50px 0;
+}
+
+.katalog:hover {
+    background-color: #3ebced;
+}
+.katalog:hover h3 {
+    color: white;
+}
+.film:hover  {
+    background-color: #3ebced;
+}
+.film:hover h3{
+    color: white;
+}
+.footer_alt_sol  {
+    color: white;
+    text-align: left;
+  background-color:#333;
+    padding: 50px 250px;
+    box-shadow: 2px gray;
+}
+.footer_alt_sol img{
+    filter: brightness(0) invert(1);
+}
+.footer_alt {
+    background-color: #1d1e1b;
+    box-shadow: 3px 3px 4px gray;
+}
+.footer_alt_sol p{
+    padding-top: 300px;
+    font-size: 30px;
+    font-family:"SFProDisplay ince" ;
+}
+.footer_alt_sag h3{
+    color: white;
+    font-size: 30px;
+    text-align: right;
+    font-family: 'Zoom Pro ince';
+}
+.footer_alt_sag {
+    padding: 50px 250px;
+}
+.form_posta {
+    width: 500px;
+    height: 80px;
+    border-radius: 40px;
+    border-color: #333;
+    border-style: solid;
+    background-color: transparent;
+    color: white;
+    font-size: 20px;
+    font-family:"SFProDisplay ince";
+    padding-left: 30px;
+    margin-top: 15px;
+}
+.list-group {
+    background-color: transparent;
+    margin-top: 40px;   
+}
+.list-group a {
+        color: white;
+        text-decoration: none;
+        background-color: transparent;
+        border-color: transparent;
+}
+.list-group a:hover {
+    background-color:transparent;
+    color: #3ebced;
+}
+
+
+  
+
+.list-group span {
+    color: white;
+    text-align: left;
+    margin-left: 15px;
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+.anatol_yazi {
+    background-color: #333;
+    box-shadow:3px gray;
+   
+    text-align: center;
+}
+.anatol_yazi span {
+    font-family:"SF ProDisplay ince";
+    color: white;  
+      font-size: 16px;
+      opacity: 0.6;
+    
+}
+.anatol_logo {
+    background-color: #1d1e1b;
+    text-align: right;
+    padding-right: 40px;
+}
+.incele_icon {
+    margin-top: 65px;
+    margin-bottom: 50px;
+    width: 100px;
+    height: 100px;
+}
+.resim_yazi {
+    display: block;
+}
+.resim_yazi h1 {
+    font-size: 70px;
+    font-family:"Zoom Pro Extended kalin" ;
+    position: relative;
+}
+.resim_yazi strong {
+    color: #3ebced;
+    font-family: "Zoom Pro Extended kalin";
+    font-size: 70px;
+    position: relative;
+}
+.resim_yazi span {
+    font-size: 26px;
+    font-weight: 200;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    text-align: center;
+    display: block;
+}
+.kurumsal_banner {
+    width: 95vw;
+    background-color: #1d1e1b;
+    text-align: center;
+    margin-left: 50px;
+    padding: 20px 0 40px 0 ;
+    text-decoration: none;
+}
+.incele_icon img {
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+}
+
+.kurumsal_baslik span {
+    color: white;
+   font-family:Arial, Helvetica, sans-serif;
+   font-size: 40px;
+   font-weight: bold;
+}
+.kurumsal_baslik strong {
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+   font-family:"SFProDisplay ince" ;
+}
+.kurumsal_baslik a {
+    color: white;
+}
+.header_resim {
+    width: 630px;
+    height: 470px;
+}
+.header_resim img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.kurumsal_baslik {
+    margin-bottom: 80px;
+}
+.header {
+    padding-left: 280px;
+    padding-top: 50px;
+}
+.header_yazi h2 {
+    color: #3ebced;
+    font-size: 45px;
+    font-family:"Zoom Pro Extended kalin";
+    text-align: left;
+    margin-bottom: 40px;
+}
+.header_yazi {
+    padding-left:70px ;
+    padding-right: 120px;
+}
+.header_yazi p {
+    color: white;
+    text-align: justify;
+}
+
+.kurumsal_orta {
+    padding: 150px 0;
+    padding-left: 400px;
+    padding-right:400px;
+ 
+}
+.orta_sag img
+{
+        width: 100%;
+        height: 350px;
+        object-fit: cover;
+}
+
+.orta_sol h3 {
+    text-align: right;
+    margin-top: 80px;
+    font-family: "Zoom Pro Extended kalin";
+    margin-bottom: 30px;
+}
+.orta_sol h4 {
+    text-align: left;
+    margin-top: 80px;
+    font-family: "Zoom Pro Extended kalin";
+    margin-bottom: 30px;
+}
+.orta_kurumsal {
+    margin-bottom: 
+    60px; 
+}
+.orta_sol p {
+   
+    color: gray;
+    font-size: 18px;
+}
+.urunler_header {
+    width: 95vw;
+    background-color: #f5f5f5;
+    text-align: center;
+    margin-left: 50px;
+    padding: 20px 0 40px 0 ;
+    text-decoration: none;
+}
+.urunler_baslik span {
+    color: black;
+    font-size: 40px;
+    font-weight: bold;
+}
+.urunler_baslik strong {
+  
+    text-decoration: none !important;
+    font-size: 17px;
+    font-weight: 200;
+    color: #1d1e1b;
+   
+   
+}
+.urunler_baslik a {
+   color: #1d1e1b;
+}
+.urun {
+    background-color: white;
+    margin-right: 30px;
+}
+.urun h5{
+  font-size: 25px;
+  margin-top: 30px;
+}
+.urun h4{
+    text-align: center;
+    font-family: "Zoom Pro Extended kalin";
+    font-size: 20px;
+    margin-top: 25px;
+}
+
+.urun_resmi img {
+    width: 210px;
+    height: 250px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+.urun h6 {
+    font-size: 20px;
+    color: #3ebced;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.urun h6:hover {
+    color: black;
+}
+.list-group-iletisim {
+    background-color: transparent;
+    text-align: left;
+    margin-top: 100px;
+}
+.list-group-iletisim a {
+        color: black;
+        text-decoration: none;
+        background-color: transparent;
+        border-color: transparent;
+        font-size: 20px;
+}
+.list-group-iletisim a:hover {
+    background-color:transparent;
+}
+
+.urunler_baslik {
+    margin-bottom: 65px;
+    padding-top: 60px;
+}
+.urunler_header{
+    padding: 0 260px;
+    padding-bottom: 80px;
+}
+.iletisim_bilgi {
+    text-align: left;
+   font-size: 18px;
+    color: #1d1e1b;
+}
+.form-control {
+    border-radius: 30px;
+    height: 70px;
+    border-color: white;
+}
+.btn-primary {
+    background-color: white;
+    color: black;
+   border-color: white;
+border-radius: 30px;
+width: 150px;
+height: 50px;
+margin-left: 470px;
+}
+.iletisim_form h3{
+    text-align: left;
+    font-family: 'SF Pro Display';
+    font-size: 25px;
+}
+.iletisim_form h3 span {
+    font-size: 17px;
+}
+
+.btn-primary:hover{
+    background-color: black;
+    color: white;
+    border-color: black;
+}
+.list-group-iletisim {
+    margin-bottom: 170px;
+}
